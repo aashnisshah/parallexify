@@ -1,27 +1,24 @@
 <html>
 <head>
-	<title>Parallax Scrolling</title>
+	<title>Parallex Scrolling</title>
 	<link rel="stylesheet" type="text/css" href="scrollsstyle.css" />
-
-	<script type="text/javascript">
-		var ypos, image;
-
-		function parallex() {
-			ypos = window.pageYOffset;
-			image = document.getElementById('image');
-			image.style.top = ypos * .2 + 'px';
-		}
-
-		window.addEventListener('scroll', parallex);
-	</script>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+	<script src="scrolls.js"></script>
 
 </head>
 
 <body>
 
-	<img id="image" src="images/spacebg.png" height="" width="100%">
+	<div id="image">
+		<h1>Welcome to Parallexify</h1>
+	</div>
+
 	<div id="content">
-		Lots of page content
+		<div id="ipsum">
+			<h2 id="ponyipsum">Pony Ipsum</h2>
+			Queen Chrysalis Lightning Dust King Sombra, kindness muffins Soarin Sunset Shimmer Rarity Steven Magnet pie Pinkie Pie Fancy Pants Sweetie Drops.  Photo Finish hooves Gummy Queen Chrysalis Soarin Nightmare Moon, Diamond Tiara tail cupcakes gryphon.  Sapphire Shores tail Wonderbolts, moon Goldie Delicious Babs Seed Sonata Dusk Adagio Dazzle muffin Big McIntosh.  Mrs. Cake Apple Jack Twilight Sparkle pie Big McIntosh Everfree Forest. Sweetie Drops Cheerilee wing horn Mayor Mare Soarin Snails Diamond Tiara Dr. Caballeron Silver Spoon Fluttershy.  Peewee Ms. Peachbottom Braeburn Sonata Dusk.
+		</div>
 	</div>
 
 </body>

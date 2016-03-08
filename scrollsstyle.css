@@ -3,18 +3,53 @@
 	padding: 0px;
 }
 
+body {
+	background-color: #000030;
+}
+
 #image {
 	position: relative;
 	z-index: -1;
+	background: url(images/spacebg.png) no-repeat;
+	height: 100%;
+	width: 100%;
 }
 
 #content {
 	height: 100%;
 	width: 100%;
 	margin-top: -10px;
-	background-color: #111111;
-	opacity: 0.4;
-    filter: alpha(opacity=40);
+	background-color: #000030;
 	position: relative;
 	z-index: 1;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	font-family: 'Text Me One', sans-serif;
+	font-size: 4em;
+	text-shadow: 2px 2px #000000;
+}
+
+#ipsum {
+	color: white;
+	/*padding: 40px;*/
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 1.4em;
+}
+
+#ipsum h2 {
+	color: white;
+	text-align: center;
+	position: relative;
+	padding: 10%;
+	font-family: 'Text Me One', sans-serif;
+	font-size: 3em;
+	text-shadow: 2px 2px #000000;
 }
