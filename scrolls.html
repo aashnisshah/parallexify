@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Parallax Scrolling</title>
+	<link rel="stylesheet" type="text/css" href="scrollsstyle.css" />
+
+	<script type="text/javascript">
+		var ypos, image;
+
+		function parallex() {
+			ypos = window.pageYOffset;
+			image = document.getElementById('image');
+			image.style.top = ypos * .2 + 'px';
+		}
+
+		window.addEventListener('scroll', parallex);
+	</script>
+
+</head>
+
+<body>
+
+	<img id="image" src="images/spacebg.png" height="" width="100%">
+	<div id="content">
+		Lots of page content
+	</div>
+
+</body>
+</html>
